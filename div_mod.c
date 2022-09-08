@@ -1,8 +1,7 @@
 #include "monty.h"
 
 /**
-  * div_ - divides the second top element of the stack by
-  * the top elem of stack.
+  * div_ - Entry point.
   * @stack: double pointer to stack.
   * @line_number: number of lines.
   *
@@ -35,8 +34,7 @@ void div_(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * mul - multiplies the second top element of the stack with the
-  * top element of the stack.
+  * mul - Entry point.
   * @stack: double pointer to stack;
   * @line_number: number of lines.
   *
@@ -60,8 +58,7 @@ void mul(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * mod - computes the modulus of the second top element of the stack
-  * by the top element of the stack.
+  * mod - Entry point.
   * @stack: double pointer to stack;
   * @line_number: number of lines.
   *

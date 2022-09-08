@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
-  * err - switches between the error codes, variadic func.
+  * err - Entry point.
   * @code: the code to be printed.
   *
   * Return: void.

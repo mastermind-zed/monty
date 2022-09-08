@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
-  * pall - prints all arguments inserted.
+  * pall - Entry point.
   * @stack: double pointer to stack;
   * @line_number: number of lines.
   *
@@ -20,7 +20,7 @@ void pall(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * pint - prints the value at the top of the stack.
+  * pint - Entry point.
   * @stack: double pointer to stack.
   * @line_number: number of lines.
   *
@@ -38,7 +38,7 @@ void pint(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * pchar - prints the char at the top of the stack.
+  * pchar - Entry point.
   * @stack: double pointer to stack.
   * @line_number: number of lines.
   *
@@ -67,7 +67,7 @@ void pchar(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * pstr - prints the string starting at the top of the stack.
+  * pstr - Entry point.
   * @stack: double pointer to stack.
   * @line_number: number of lines.
   *

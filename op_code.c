@@ -1,4 +1,5 @@
 #include "monty.h"
+
 /**
   * get_opcode - checks whether the opcode exists.
   * @token: opcode passed.
