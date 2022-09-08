@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
-  * rotl - Entry point.
+  * rotl - rotates the stack to the top.
   * @stack: double pointer to stack.
   * @line_number: number of lins.
   *
@@ -26,7 +26,7 @@ void rotl(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * rotr - Entry point.
+  * rotr - rotates the stack to the bottom.
   * @stack: double pointer to stack.
   * @line_number: number of lines.
   *

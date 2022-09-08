@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
-  * main - Entry point.
+  * main - entry point.
   * @argc: argument count.
   * @argv: argument vector.
   *

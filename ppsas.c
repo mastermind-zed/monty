@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
-  * push - Entry point.
+  * push - push data to top of stack.
   * @stack: double pointer to stack.
   * @line_number: number of lines.
   *
@@ -36,7 +36,7 @@ void push(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * pop - Entry point.
+  * pop - removes the element at the top of the stack
   * @stack: double pointer to stack.
   * @line_number: number of lines.
   *
@@ -68,7 +68,7 @@ void pop(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * swap - Entry point.
+  * swap - swaps the top two elements of the stack.
   * @stack: double pointer to stack.
   * @line_number: number of lines.
   *
@@ -90,7 +90,7 @@ void swap(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * add - Entry point.
+  * add - adds the top two elements of the stack.
   * @stack: double pointer to stack;
   * @line_number: number of lines.
   *
@@ -113,7 +113,7 @@ void add(stack_t **stack, unsigned int line_number)
 }
 
 /**
-  * sub - Entry point.
+  * sub - subtracts the top element of the stack from the second top element.
   * @stack: double pointer to stack.
   * @line_number: number of lines.
   *
